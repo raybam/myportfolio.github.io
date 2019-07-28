@@ -1,0 +1,117 @@
+.content{
+      grid-area: content;
+    }
+
+    .hero{
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+   
+
+    .imgbox img{
+      width: 400px;
+      transition: transform 1s;
+      
+    }
+    .imgbox img:hover {
+      transform: scale(1.2);
+    }
+
+
+    .hero h1{
+      font-size: 2em;
+      font-weight: 300;
+      color: #373d46;
+
+    }
+
+    .hero p{
+      font-weight: 300;
+      line-height: 1.8em;
+      color: grey;
+    }
+
+    .action-btn{
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+     
+      padding: 0.5em 2em;
+      border-radius: 40px;
+      margin: 1em 0;
+      transition: 0.3s;
+    }
+
+    .action-btn:hover {
+      box-shadow:0 10px 50px rgba(0,0,0,1);
+    }
+
+    .hero {
+      text-align: `left;
+      margin: 2em auto;
+    }
+    #folio {
+    margin: 20px;
+    font-size: 20px;
+
+    }
+    
+    .cf img{
+      border: 2px solid white;
+      border-radius: 10px;
+     
+
+
+
+
+
+
+
+
+
+
+
+   
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+       .hero img{
+      width: 300px;
+      }
+
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+   
+ <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="active indigo-text text-darken-4">Photography</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+          </li>
+        </ul>
+        <div id="photography" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Photography</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        </div>
+        <div id="editing" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Editing</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        </div>
+        </div>
